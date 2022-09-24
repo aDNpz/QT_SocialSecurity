@@ -1,0 +1,70 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{869D14E7-5FC0-4F8E-A85E-8691A6B83BBF}") = "QT12SS.Logic", "QT12SS.Logic\QT12SS.Logic.csproj", "{4BA6D589-2D38-4527-BD59-B827DAB0D5F4}"
+EndProject
+Project("{37A49110-77D7-4A9B-86A8-55F970A370B0}") = "QT12SS.ConApp", "QT12SS.ConApp\QT12SS.ConApp.csproj", "{BA9F6754-9315-4674-AB53-34CB4BB5F30B}"
+EndProject
+Project("{F8AF39A0-EAEB-4099-B1BC-86370EDDE706}") = "QT12SS.WebApi", "QT12SS.WebApi\QT12SS.WebApi.csproj", "{A75A5F5C-82CC-447B-A96D-242738B70C55}"
+EndProject
+Project("{D4E79B10-4432-4FC6-88C7-D87436E90986}") = "CommonBase", "CommonBase\CommonBase.csproj", "{5D5C4E63-A490-4AD3-8B36-7CF49A5F5937}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}")="SolutionItems","SolutionItems","{7D1E32D0-6289-41AB-B44D-31F87C0C21A2}"
+	ProjectSection(SolutionItems)=preProject
+		AspMvcDataFlow.md=AspMvcDataFlow.md
+		MultiTierArchitecture.md=MultiTierArchitecture.md
+		Nuget.md=Nuget.md
+		ReadMe.md=ReadMe.md
+		..\..\Users\aldin\Downloads\ReadMeSocialSecurity.md=..\..\Users\aldin\Downloads\ReadMeSocialSecurity.md
+		WebApiDataFlow.md=WebApiDataFlow.md
+EndProject
+Project("{CBAE9A36-3667-4DE9-AEC5-D62CD7295A0A}") = "QT12SS.WpfApp", "QT12SS.WpfApp\QT12SS.WpfApp.csproj", "{11E41372-993D-48EA-85EB-290BD727A3E6}"
+EndProject
+Project("{98A5A1D6-4959-4E09-921E-0DC21B17773A}") = "QT12SS.AspMvc", "QT12SS.AspMvc\QT12SS.AspMvc.csproj", "{F32EA400-BBCC-4F3C-8A2B-882A20C9C1E8}"
+EndProject
+Project("{769031E1-CBB2-4294-B609-9A7B01A46FE5}") = "QT12SS.Logic.UnitTest", "QT12SS.Logic.UnitTest\QT12SS.Logic.UnitTest.csproj", "{DA2BE746-8EFA-48EB-BE54-F27E3ED868C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA6D589-2D38-4527-BD59-B827DAB0D5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA6D589-2D38-4527-BD59-B827DAB0D5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA6D589-2D38-4527-BD59-B827DAB0D5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA6D589-2D38-4527-BD59-B827DAB0D5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9F6754-9315-4674-AB53-34CB4BB5F30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9F6754-9315-4674-AB53-34CB4BB5F30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9F6754-9315-4674-AB53-34CB4BB5F30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9F6754-9315-4674-AB53-34CB4BB5F30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75A5F5C-82CC-447B-A96D-242738B70C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75A5F5C-82CC-447B-A96D-242738B70C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75A5F5C-82CC-447B-A96D-242738B70C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75A5F5C-82CC-447B-A96D-242738B70C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5C4E63-A490-4AD3-8B36-7CF49A5F5937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5C4E63-A490-4AD3-8B36-7CF49A5F5937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5C4E63-A490-4AD3-8B36-7CF49A5F5937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5C4E63-A490-4AD3-8B36-7CF49A5F5937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E41372-993D-48EA-85EB-290BD727A3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E41372-993D-48EA-85EB-290BD727A3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E41372-993D-48EA-85EB-290BD727A3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E41372-993D-48EA-85EB-290BD727A3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32EA400-BBCC-4F3C-8A2B-882A20C9C1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32EA400-BBCC-4F3C-8A2B-882A20C9C1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32EA400-BBCC-4F3C-8A2B-882A20C9C1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32EA400-BBCC-4F3C-8A2B-882A20C9C1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2BE746-8EFA-48EB-BE54-F27E3ED868C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2BE746-8EFA-48EB-BE54-F27E3ED868C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2BE746-8EFA-48EB-BE54-F27E3ED868C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2BE746-8EFA-48EB-BE54-F27E3ED868C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF03B1AA-1561-490C-A754-A0BBC20ED76E}
+	EndGlobalSection
+EndGlobal
